@@ -55,10 +55,24 @@ The ensemble model is trained with customized data pipelines that include extens
 ### Operational Efficiency
 
 With backbones like MobileNetV2, the ensemble not only delivers high accuracy but is also practical for deployment in resource-limited environments.
+
 ## Resnet50 Results
-(Images/Baseline_Result.png)
+![U-Net-Resenet_1](Images/Res_out_1.png)
+![U-Net-Resenet_2](Images/Res_out_2.png)
+![U-Net-Resenet_3](Images/Res_out_3.png)
+
 ## Dense121 Results
+![U-Net-Dense_1](Images/Dense_out_1.png)
+![U-Net-Dense_2](Images/Dense_out_2.png)
+![U-Net-Dense_3](Images/Dense_out_3.png)
 
 ## MobileNet Results
+![U-Net-Mobile_1](Images/Mobile_out_1.png)
+![U-Net-Mobile_2](Images/Mobile_out_2.png)
+![U-Net-Mobile_3](Images/Mobile_out_3.png)
 
 ## Ensemble Results
+![U-Net-Ens_1](Images/Ensembe_out_1.png)
+![U-Net-Ens_2](Images/Ensemble_out_2.png)
+![U-Net-Ens_3](Images/Ensemble_out_3.png)
+
