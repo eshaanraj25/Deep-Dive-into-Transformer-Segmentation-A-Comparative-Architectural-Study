@@ -19,8 +19,46 @@ Achieving optimal performance through detailed hyperparameter tuning:
 
 ## Loss and Accuracy Curves for UNet_Baseline
 
-
-![U-Net Architecture](UNet/Images/Baseline_Loss.png)
+![U-Net-Loss-Accuracy](Images/Baseline_Loss.png)
 
 ## Results for UNet_Baseline
 
+![U-Net-Result](Images/Baseline_Result.png)
+
+
+## UNet-Ensemble Architecture
+
+Integrating three distinct U-Net configurations, each employing a robust backbone for feature extraction:
+- *ResNet50 U-Net:* Features ResNet50 layers paired with specialized decoder blocks for refined segmentation.
+- *DenseNet121 U-Net:* Utilizes DenseNet121's dense connectivity for improved feature propagation and reuse.
+- *MobileNetV2 U-Net:* Optimized for computational efficiency, making it ideal for mobile deployments.
+
+### Loss Functions
+
+Employing a mix of loss functions to finely tune the training process:
+- *Sparse Categorical Crossentropy:* Standard baseline for comparison.
+- *Dice Loss:* Enhances performance on imbalanced datasets.
+- *Categorical Focal Loss:* Concentrates on improving classification of hard examples.
+- *Hybrid Losses:* Tailored to specific dataset characteristics, such as focalLoss + 3*diceLoss and (2*focalLoss + 1.7*diceLoss)/2.
+
+### Evaluation Metrics
+
+- *Accuracy*
+- *IoU (Intersection over Union)*
+- *F-score*
+These metrics provide a comprehensive overview of model performance across different thresholds.
+
+## Training and Deployment
+
+The ensemble model is trained with customized data pipelines that include extensive data augmentation and batch processing. This approach ensures the model generalizes well across diverse data distributions. Predictions from each model are weighted based on validation metrics, optimizing the ensemble’s performance.
+
+### Operational Efficiency
+
+With backbones like MobileNetV2, the ensemble not only delivers high accuracy but is also practical for deployment in resource-limited environments.
+## Resnet50 Results
+(Images/Baseline_Result.png)
+## Dense121 Results
+
+## MobileNet Results
+
+## Ensemble Results
