@@ -26,5 +26,5 @@ Detailed explanations of each model's architecture and implementation can be fou
 
 ## Refrences
 
-[Paper](Images/DL_Final_Project.pdf)
+[Our_Paper](Images/DL_Final_Project.pdf)
 
