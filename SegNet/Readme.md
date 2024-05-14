@@ -7,11 +7,11 @@
 
 ### Test Accuracy 
 
-![SEG_2](Vit_Image/test_accuracy_plot.jpg)
+![SEG_2](Images/test_accuracy_plot.jpg)
 
 ### Loss Accuracy 
 
-![SEG_3](Vit_Image/train_loss_plot.jpg)
+![SEG_3](Images/train_loss_plot.jpg)
 
 ### ViT Encoder with 4 Blocks 
 
