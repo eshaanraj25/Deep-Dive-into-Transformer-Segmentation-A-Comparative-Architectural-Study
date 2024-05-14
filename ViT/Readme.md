@@ -1,6 +1,6 @@
 # Vision Transformer for Image Segmentation
 
-This repository contains the implementation of a Vision Transformer-based model for image segmentation tasks, inspired by the paper "An Image Is Worth 16x16 Words".
+This repository contains the implementation of a Vision Transformer-Framework.
 
 ## Model Architecture
 
