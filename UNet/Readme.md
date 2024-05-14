@@ -76,3 +76,6 @@ With backbones like MobileNetV2, the ensemble not only delivers high accuracy bu
 ![U-Net-Ens_2](Images/Ensemble_out_2.png)
 ![U-Net-Ens_3](Images/Ensemble_out_3.png)
 
+## Ensemble IoU Results
+![U-Net-Ens_4](Images/Ensemble_res.png)
+
