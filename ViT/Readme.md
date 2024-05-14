@@ -20,3 +20,29 @@ Hyperparameter tuning was conducted to optimize model accuracy, encompassing var
 - *Self-Attention Head Count*: Different configurations with 8, 12, and 14 self-attention heads were examined.
 - *Epochs*: The model underwent training for 20, 50, and 100 epochs, with 50 epochs yielding a balanced performance in terms of training and test accuracy.
 - *Embedding Dimension*: We experimented with embedding dimensions of 256, 512, and 768, where the dimension of 768 gave the best result.
+
+## Results
+
+### Train Accuracy
+
+![vit_1](Vit_Image/train_accuracy_plot.jpg)
+
+### Test Accuracy 
+
+![vit_2](Vit_Image/test_accuracy_plot.jpg)
+
+### Loss Accuracy 
+
+![vit_3](Vit_Image/train_loss_plot.jpg)
+
+### ViT Encoder with 4 Blocks 
+
+![vit_4](Vit_Image/ViT_8.png)
+
+### ViT Encoder with 14 Blocks 
+
+![vit_5](Vit_Image/ViT_14.png)
+
+### ViT Encoder with 16 Blocks 
+
+![vit_6](Vit_Image/ViT_16.jpg)
